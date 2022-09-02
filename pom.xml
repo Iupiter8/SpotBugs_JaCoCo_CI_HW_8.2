@@ -45,13 +45,14 @@
                         <version>4.5.3</version>
                     </dependency>
                 </dependencies>
-                <execution>
-                        <id>report</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>report</goal>
-                        </goals>
-                    </execution>     
+               <executions>
+                        <execution>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>check</goal>
+                            </goals>
+                        </execution>
+                    </executions>    
             </plugin>
 
             <plugin>
